@@ -1,6 +1,6 @@
 # OPC UA ENERGY SERVER with NodeOPCUA
 A simple server that represents an energy station with the follow structure:
-<img align="right" width="680" height="500" src="https://github.com/Engineering-Research-and-Development/energy-mes-opc-ua-server/blob/master/img/Workstation_EnergyMes.png">
+<img align="right" width="580" height="480" src="https://github.com/Engineering-Research-and-Development/energy-mes-opc-ua-server/blob/master/img/Workstation_EnergyMes.png">
 * Energy (obj)
     * ActivePowerL1 (attr)
     * Flow (attr)
