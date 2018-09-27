@@ -1,7 +1,7 @@
 {
-  "name": "OPC_UA_Energy_Server",
+  "name": "OPC_UA_Energy_MES__Server",
   "version": "1.0.0",
-  "description": "Energy Server",
+  "description": "Energy MES Server",
   "main": "energy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
