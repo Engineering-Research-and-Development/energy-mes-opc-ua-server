@@ -1,13 +1,24 @@
 # OPC UA ENERGY SERVER with NodeOPCUA
 A simple server that represents an energy station with the follow structure:
-<img align="right" width="280" height="200" src="https://github.com/Engineering-Research-and-Development/energy-opc-ua-server/blob/master/img/Workstation_EnergyMes.png">
+<img align="right" width="280" height="200" src="https://github.com/Engineering-Research-and-Development/energy-mes-opc-ua-server/blob/master/img/Workstation_EnergyMes.png">
 * Energy (obj)
     * ActivePowerL1 (attr)
     * Flow (attr)
     * Pressure (attr)
-
-
-
+* MES (obj)
+    * Busy (attr)
+    * RFIDTagPresent (attr)
+    * Done (attr)
+    * StationEntryxBG5 (attr)
+    * ReadyAtStationxBG1 (attr)
+    * StationExitxBG6 (attr)
+    * OrderNo (attr)
+    * OrderPosition (attr)
+    * CarrierID (attr)   
+    * WorkPlanNo (attr)
+    * StepNo (attr)
+    * OperationNo (attr)
+    * PartNumber (attr)
 
 
 ### Install from source
