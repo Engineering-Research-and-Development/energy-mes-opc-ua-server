@@ -20,7 +20,7 @@ var scaleFactor = config.scaleFactor;
 
 
 function create_datamatrix(callback) {
-  fs.createReadStream("./config/input_data.csv")
+  fs.createReadStream("./config/input_data_min.csv")
   .pipe(parse({delimiter: '|'}))
   .on('data', function(csvrow) {
     csvData.push(csvrow);
