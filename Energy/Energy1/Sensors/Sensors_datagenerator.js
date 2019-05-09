@@ -154,7 +154,6 @@ function periodicall() {
       tempCol16 +=1;
       //tempCol17 +=1;
       timestampCol +=1;
-      console.log("row="+tempCol1);
       //time=2000;
       setTimeout(periodicall, time);
     }
